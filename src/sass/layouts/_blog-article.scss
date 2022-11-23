@@ -1,163 +1,399 @@
 .container-article {
-    font-family: $basic-font;
-    font-style: normal;
-    background-image: url(../images/background/article_background.jpg);
+  font-family: $basic-font;
+  font-style: normal;
+  background-image: url(../images/background/article_background.jpg);
 
-    padding: 40px 16px 48px;
+  padding: 40px 16px 48px;
 
-@include tablet {
+  @include tablet {
     padding: 120px 40px;
-    }
-@include desktop {
+  }
+  @include desktop {
     padding: 112px 40px 120px;
-}
+  }
 }
 
 .container-article__header {
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 1.16;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
 
-        color: $main-text-color;
+  color: $main-text-color;
 
-@include tablet {
+  @include tablet {
     font-weight: 500;
-        font-size: 56px;
-        line-height: 1;
-        margin-top: 0px;
-    }
+    font-size: 56px;
+    line-height: 1;
+    margin-top: 0px;
+  }
 }
 
 .container-article__image-box {
-    margin-left: -16px;
-    margin-right: -16px;
-    
-@include tablet {
+  margin-left: -16px;
+  margin-right: -16px;
+
+  @include tablet {
     display: flex;
     flex-wrap: wrap;
-    }
+  }
 }
 
 .container-article__image {
-@include tablet {
-        height: 228px;
-        border-radius: 12px;
-    }
+  @include tablet {
+    height: 228px;
+    border-radius: 12px;
+  }
 }
 
 .container-article__second-header-container {
-    @include tablet {
-        width: 248px;
+  @include tablet {
+    width: 248px;
 
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-    @include desktop {
-        flex-direction: row;
-        width: 100%;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  @include desktop {
+    flex-direction: row;
+    width: 100%;
+  }
 }
 
 .container-article__second-header {
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 1;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
 
-        color: $main-text-color;
+  color: $main-text-color;
 
-@include tablet {
+  @include tablet {
     font-weight: 600;
-        font-size: 24px;
-        line-height: 1;
+    font-size: 24px;
+    line-height: 1;
 
-        color: $accent-color;
-    }
+    color: $accent-color;
+  }
 }
 
 .container-article__date {
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 1;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
 
-        color: $grey-text-color;
+  color: $grey-text-color;
 
-@include tablet {
+  @include tablet {
     font-weight: 600;
-        font-size: 24px;
-        line-height: 1;
-    }
+    font-size: 24px;
+    line-height: 1;
+  }
 }
 
 .container-article__general {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.9;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
 }
 
 .container-article__thumb {
-@include desktop {
+  @include desktop {
     width: 600px;
-    }
+  }
 }
 
 .container-article__text {
-        color: $main-text-color;
+  color: $main-text-color;
 
-@include tablet {
+  @include tablet {
     font-weight: 400;
-        font-size: 24px;
-        line-height: 1.16;
-    }
+    font-size: 24px;
+    line-height: 1.16;
+  }
 }
 
 .container-article__req {
-        color: $main-text-color;
+  color: $main-text-color;
 
-@include tablet {
+  @include tablet {
     font-weight: 400;
-            font-size: 24px;
-            line-height: 1.16;
-    }        
+    font-size: 24px;
+    line-height: 1.16;
+  }
 }
 
 .container-article__title-wrap {
-    @include desktop {
-        width: 620px;
-    }
+  @include desktop {
+    width: 620px;
+  }
 }
 
 .container-article__third-header {
-    font-weight: 400;
-    font-size: 16px;
-    color: $main-text-color;
+  font-weight: 400;
+  font-size: 16px;
+  color: $main-text-color;
 
-@include tablet {
+  @include tablet {
     font-weight: 400;
     font-size: 24px;
     line-height: 1.17;
     color: $accent-color;
-    }
+  }
 }
 
-.container-article__list-container {}
+.container-article__list-container {
+}
 
 .container-article__list {
-    padding-left: 16px; 
+  padding-left: 16px;
 
-@include tablet {
+  @include tablet {
     margin-top: 0px;
     padding-left: 40px;
     color: $accent-color;
-    }
+  }
 }
 
-.container-article__list-item {}
+.container-article__list-item {
+}
 
-.container-article__second-text-container {}
+.container-article__second-text-container {
+}
 
 .container-article__second-text {
-    @include tablet {
-        margin: 0px;
-    }
+  @include tablet {
+    margin: 0px;
+  }
+}
+
+// Project 23
+
+.container-article {
+  font-family: $basic-font;
+  font-style: normal;
+  background-image: url(../images/background/article_background.jpg);
+
+  padding: 40px 16px 48px;
+
+  @include tablet {
+    padding: 120px 40px;
+  }
+  @include desktop {
+    padding: 112px 40px 120px;
+  }
+}
+
+.container-article__header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  margin-bottom: 26px;
+
+  color: $main-text-color;
+
+  @include tablet {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1;
+    margin-top: 0px;
+  }
+}
+
+.container-article__image-and-text-wrapper {
+  display: none;
+
+  @include desktop {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    grid-column-gap: 121px;
+    margin-bottom: 48px;
+  }
+}
+
+.container-article__image-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  @include tablet {
+    margin-bottom: 16px;
+  }
+
+  @include desktop {
+    margin-bottom: 0;
+  }
+}
+
+.container-article__image-box {
+  margin-left: -16px;
+  margin-right: -16px;
+
+  @include tablet {
+    display: flex;
+    grid-column-gap: 40px;
+    margin: 0;
+  }
+}
+
+.container-article__image-box-mobile {
+  @include desktop {
+    display: none;
+  }
+}
+
+.container-article__image {
+  @include tablet {
+    height: 100%;
+    border-radius: 12px;
+  }
+}
+
+.container-article__second-header-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  @include tablet {
+    margin-top: auto;
+  }
+}
+
+.container-article__second-header-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  grid-column-gap: 121px;
+}
+
+.container-article__second-header-grid-desktop {
+  display: none;
+
+  @include desktop {
+    display: grid;
+  }
+}
+
+.container-article__thumb-mobile {
+  @include desktop {
+    display: none;
+  }
+}
+
+.container-article__second-header-container {
+  margin-top: 25px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 8px;
+  padding: 0 16px;
+
+  @include tablet {
+    margin: 0;
+    padding: 0;
+    grid-row-gap: 24px;
+    width: 248px;
+    justify-content: flex-end;
+  }
+
+  @include desktop {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+}
+
+.container-article__second-header {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+  color: $main-text-color;
+
+  @include tablet {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1;
+
+    color: $accent-color;
+  }
+}
+
+.container-article__date {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+
+  color: $grey-text-color;
+
+  @include tablet {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1;
+  }
+}
+
+.container-article__general {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.container-article__text {
+  color: $main-text-color;
+  line-height: 1.2;
+
+  @include tablet {
+    font-weight: 400;
+    font-size: 24px;
+  }
+}
+
+.container-article__req {
+  line-height: 1.2;
+  color: $main-text-color;
+
+  @include tablet {
+    font-weight: 400;
+    font-size: 24px;
+  }
+}
+
+.container-article__title-wrap {
+  @include desktop {
+    width: 620px;
+  }
+}
+
+.container-article__third-header {
+  font-weight: 400;
+  font-size: 16px;
+  color: $main-text-color;
+
+  @include tablet {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.17;
+    color: $accent-color;
+  }
+}
+
+.container-article__list-container {
+}
+
+.container-article__list {
+  padding-left: 22px;
+  margin-top: 0px;
+
+  @include tablet {
+    padding-left: 40px;
+    color: $accent-color;
+  }
+}
+
+.container-article__list-item {
+}
+
+.container-article__second-text-container {
+}
+
+.container-article__second-text {
+  @include tablet {
+    margin: 0px;
+  }
 }
